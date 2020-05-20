@@ -1,0 +1,22 @@
+a) Using experimentally measured HRIRs
+	i) Time domain convolution equation for FIR causal filters.
+		CODE:
+			For Azimuth:  see "time_domain_convo_azimuth_re.py"
+			For Elevation: see "time_domain_convo_elevation_re.py"
+		OUTPUT AUDIO FILES:
+			For Azimuth:  see "time_domain_azimuth.wav"
+			For Elevation:  see "time_domain_elevation.wav"
+	ii) Frequency domain FIR filtering using the “overlap and add” block processing method.
+		CODE:
+			For Azimuth:  see "frequency_domain_convo_azimuth_re.py"
+			For Elevation: see "frequency_domain_convo_elevation_re.py"
+		OUTPUT AUDIO FILES:
+			For Azimuth:  see "frequency_domain_azimuth.wav"
+			For Elevation:  see "frequency_domain_elevation.wav"
+b) Using HRIR filters designed from a basic synthetic model of HRTFs: 
+	CODE:
+		for frequency domain: see "frequency_hrtf_re.py"
+		for time domain: see "time_hrtf_re.py"
+	OUTPUT AUDIO FILE:
+		for frequency domain: see "frequency_hrtf.wav"
+		for time domain: see "time_hrtf.wav"
