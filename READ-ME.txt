@@ -1,0 +1,3 @@
+The code and output audio files are in folder "Code and output audio files".
+
+The audio and data files(.mat files) which are used as input are in folder "Input audio and mat files".
